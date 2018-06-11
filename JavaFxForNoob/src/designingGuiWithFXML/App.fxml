@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.net.URL?>
+
+<BorderPane
+	xmlns="http://java.fx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<stylesheets>
+		<URL value="@app.css"/>
+	</stylesheets>
+	<top>
+		<Label fx:id="label1" text="This is FXML!" />
+	</top>
+	<!-- TODO Add Nodes -->
+</BorderPane>
+

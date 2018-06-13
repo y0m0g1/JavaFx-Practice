@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.net.URL?>
+
+<BorderPane
+	xmlns="http://java.fx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="implementActionEventsWithFXML.AppController">
+	<!--
+	<fx:script>
+	function doAction(event){
+		var str = field1.getText();
+		str = "You wrote :"+str;
+		label1.setText(str);
+	}
+	</fx:script>
+	-->
+	<stylesheets>
+		<URL value="@app.css"/>
+	</stylesheets>
+	<top>
+		<Label fx:id="label1" text="This is FXML!" />
+	</top>
+	<center>
+		<TextField fx:id="field1" />
+	</center>
+	<bottom>
+		<Button fx:id="btn1" text="Click" />
+	<!--  <Button fx:id="btn1" onAction="#doAction" text="Click" /> -->
+	<!--  <Button onAction="doAction(event);" text="Click"/>-->
+	</bottom>
+	<!-- TODO Add Nodes -->
+</BorderPane>
+

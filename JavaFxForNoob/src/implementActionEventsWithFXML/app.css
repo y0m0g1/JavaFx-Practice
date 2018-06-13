@@ -1,0 +1,8 @@
+/*@charset "UTF-8";*/
+/*@charset rule is not supported by JavaFX CSS
+	-> https://stackoverflow.com/questions/28973873/javafx-css-warning-css-error-parsing-file-expected-lbrace-at*/
+
+Label#label1 {
+	-fx-font-family:Serif;
+	-fx-font-size:12pt;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import java.lang.*?>
+<?import java.net.URL?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.collections.FXCollections?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx"
+	fx:controller="usingListViewAndSelectionModel.AppController">
+	<!-- TODO Add Nodes -->
+	<stylesheets>
+		<URL value="@app.css"/>
+	</stylesheets>
+	<top>
+		<Label fx:id="label1" text="This is FXML!"/>
+	</top>
+	<center>
+		<ListView fx:id="list1">
+		<!--
+			<items>
+				<FXCollections fx:factory="observableArrayList">
+					<String fx:value="Windows" />
+					<String fx:value="Mac OS" />
+					<String fx:value="Linux" />
+				</FXCollections>
+			</items>
+		-->
+		</ListView>
+	</center>
+	<bottom>
+		<Button text="Click" fx:id="btn1"/>
+	</bottom>
+
+</BorderPane>
+

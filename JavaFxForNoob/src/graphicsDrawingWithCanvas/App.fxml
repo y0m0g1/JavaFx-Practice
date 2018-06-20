@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx"
+	fx:controller="graphicsDrawingWithCanvas.AppController">
+	<!-- TODO Add Nodes -->
+	<center>
+		<Canvas fx:id="canvas" width="300" height="300" />
+	</center>
+</BorderPane>
+

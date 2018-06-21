@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.Double?>
+
+<Pane xmlns:fx="http://javafx.com/fxml/1"
+	xmlns="http://javafx.com/javafx"
+	fx:controller="vectorGraphicsWithShape.AppController">
+	<!-- TODO Add Nodes -->
+	<!-- example1 -->
+	<!--
+	<Rectangle x="50" y="50" width="100" height="100"
+		fill="RED" stroke="BLUE" strokeWidth="5" />
+	<Circle centerX="150" centerY="150" radius="50"
+		fill="GREEN" stroke="CYAN" strokeWidth="5" />
+	-->
+
+	<!-- example2 -->
+	<!--
+	<Polygon fill="RED">
+	<points>
+		<Double fx:value="110.0" />
+		<Double fx:value="10.0" />
+		<Double fx:value="210.0" />
+		<Double fx:value="20.0" />
+		<Double fx:value="150.0" />
+		<Double fx:value="100.0" />
+	</points>
+	</Polygon>
+
+	<CubicCurve fill="YELLOW" stroke="BLUE" strokeWidth="5"
+		startX="50" startY="50" endX="200" endY="200"
+		controlX1="200" controlY1="50"
+		controlX2="50" controlY2="200" />
+	-->
+</Pane>
+
